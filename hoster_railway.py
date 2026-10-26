@@ -46,9 +46,9 @@ def get_uptime():
     minutes, seconds = divmod(remainder, 60)
     return f"{days}d {hours}h {minutes}m {seconds}s"
 
-TOKEN = os.environ.get("BOT_TOKEN", "8906684376:AAGOUdGi_EMUbItExfHKPAqwTgkd9ql3sWk").strip()
+TOKEN = os.environ.get("BOT_TOKEN", "8906684376:AAESTE-9zoA3cW6MlL9UvA5mek7Hb2_xjuw").strip()
 if not TOKEN:
-    raise RuntimeError("8906684376:AAGOUdGi_EMUbItExfHKPAqwTgkd9ql3sWk environment variable is required")
+    raise RuntimeError("8906684376:AAESTE-9zoA3cW6MlL9UvA5mek7Hb2_xjuw environment variable is required")
 OWNER_ID = 7217053510
 ADMIN_ID = 7217053510
 YOUR_USERNAME = '@Sarkargggg'
